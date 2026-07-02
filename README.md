@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+# 🫧 Bubble Chat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📝 Overview
+A production-ready social platform with real-time chat, calls, video, screen sharing, and a social feed for sharing short clips. Built with **React 18+**, **TypeScript**, **Redux Toolkit**, **Tailwind CSS + Custom Styled Components**, and **React Router v6**.
 
-### `npm start`
+## 🚀 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Framework** | React 18+ | UI framework |
+| **Language** | TypeScript | Type safety |
+| **Styling** | Tailwind CSS + Custom Styled Components | Utility-first + component-scoped CSS |
+| **State** | Redux Toolkit | Global state management |
+| **Routing** | React Router v6 | Client-side routing |
+| **Icons** | Lucide React | Modern icon library |
+| **Forms** | React Hook Form + Zod | Form handling + validation |
+| **Mock Data** | MSW (Mock Service Worker) | API mocking |
+| **Build** | Vite | Fast bundler |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✨ Features
+GitHub checkboxes will let you track your progress dynamically:
 
-### `npm test`
+- [ ] 🔐 **Authentication** — Secure login, registration, and session management.
+- [ ] 👥 **Friendship System** — Handle friend requests, status updates, and user lists.
+- [ ] 💬 **Text Chat** — Real-time messaging with typing indicators and read receipts.
+- [ ] 📱 **Social Feed** — Dedicated space for discovering and sharing short video clips.
+- [ ] 📞 **Voice/Video Calls** — High-quality audio and video communication channels.
+- [ ] 🖥️ **Screen Sharing** — Instantly share your workspace or screen during active calls.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Project Structure
 
-### `npm run build`
+```text
+src/
+├── app/                    # Redux store configuration
+│   ├── store.ts
+│   └── hooks.ts            # Typed Redux hooks
+├── features/               # Feature-based modules
+│   ├── auth/               # Authentication
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── store/
+│   │   └── types/
+│   ├── chat/               # Text chat
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── store/
+│   │   └── types/
+│   ├── friends/            # Friendship system
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── store/
+│   │   └── types/
+│   ├── feed/               # Social feed (posts/clips)
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── store/
+│   │   └── types/
+│   └── calls/              # Voice/Video/Screen share
+│       ├── components/
+│       ├── pages/
+│       ├── store/
+│       └── types/
+├── components/             # Shared UI components
+│   ├── ui/                 # Base components (Button, Modal, etc.)
+│   └── layout/             # Layout components (Sidebar, Header, etc.)
+├── hooks/                  # Custom reusable hooks
+├── utils/                  # Global utility functions
+├── types/                  # Global TypeScript types
+├── mocks/                  # MSW mock handlers and service configurations
+├── pages/                  # Top-level standalone pages (e.g., NotFound)
+└── routes/                 # Centralized route definitions
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Getting Started
+⚠️ Note: Project is currently in active development. Detailed setup instructions will be available soon.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1) Clone the repository
+git clone [https://github.com/Dansab-158/bubble-chatproject](https://github.com/Dansab-158/bubble-chatproject)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2) Install dependencies
+npm install
 
-### `npm run eject`
+3) Run the development server
+npm run dev
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📸 Screenshots & Demo
+Coming soon! Check back for visual updates, screenshots, and live demo links.
